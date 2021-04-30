@@ -26,6 +26,7 @@ SECRET_KEY = 'wmkrok&5hjtev_p25#sqxp9!zq@4)t9ev6)7+lapy_=)n_tqb!'
 DEBUG = True
 
 #ALLOWED_HOSTS = ['192.168.10.14']
+# jerry all IP access
 ALLOWED_HOSTS = ['*']
 
 # Application definition
@@ -103,9 +104,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
+# jerry for Taiwan
+LANGUAGE_CODE = 'zh-Hant'
+TIME_ZONE = 'Asia/Taipei'
 
 USE_I18N = True
 
