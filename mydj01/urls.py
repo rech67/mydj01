@@ -19,5 +19,9 @@ from app1 import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path('hello/', views.hello),
+=======
+    path('hello', views.hello),
+>>>>>>> a6c177ceb4ba45778ef5e743224e01a30f41430a
 ]
