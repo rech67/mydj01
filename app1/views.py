@@ -6,3 +6,6 @@ def hello(request):
 
 def pages(request):
     return render(request,'pages.html')
+
+def pages1(request):
+    return render(request,'pages1.html')
